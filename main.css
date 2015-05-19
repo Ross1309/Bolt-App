@@ -1,0 +1,286 @@
+/*Main Css*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@font-face {
+    font-family: camptonbold_demo;
+    src: url(Campton-Bold-DEMO/Rene-Bieder-Campton-Bold-DEMO.otf);
+}
+@font-face {
+    font-family: museo-300;
+    src: url(Museo-300/exljbris-Museo-300.otf);
+}
+.home-body {
+    background-image: url(Images/Bolt-Lexa-Home.png);  
+    background-repeat: no-repeat;
+    padding:0;
+    margin:0;
+}
+body{
+    padding:0;
+    margin:0; 
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+ul {
+    padding: 0px !important;   
+}
+.sideMenu {
+    background-color: #fff;
+    width: 100%;
+    padding: 0!important;
+    margin-right: 4%;
+}
+.sideMenu nav {
+    width: 85%;
+    float: left;
+    margin-right: 44px;
+}
+.sideMenu nav li  {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(235,0,139);
+    font-size: 20px;
+    padding: 30px 0;
+}
+.sideMenu nav a {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(235,0,139);
+    font-size: 15px;
+    font-family: camptonbold_demo;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+#first {
+    margin-top: 35px!important;  
+}
+#last {
+    margin-bottom: 213px!important;   
+}
+.nav-line {
+    margin: 0!important;
+    padding: 0!important;
+    width: 175px;
+    height: 1px;
+    background-color: rgb(235,0,139);
+}
+.sideMenu nav li:hover, .sideMenu nav li:active  {
+    background-color: rgba(241,103,34,.2);
+    text-decoration: none;
+}
+.nav-vert-line {
+    float:left;
+    height: 800px;
+    width: .25%;
+    background-color: rgb(235,0,139);
+    margin-top: -100px;
+}
+.nav-vert-line-test {
+    float:left;
+    height: 1900px;
+    width: .25%;
+    background-color: rgb(235,0,139);
+    margin-top: -100px;
+}
+.nav-vert-line-faq {
+    float:left;
+    height: 800px;
+    width: .25%;
+    background-color: rgb(235,0,139);
+    margin-top: -100px;
+}
+.maincontent {
+    float: left;
+}
+.button-box {
+    height: 100px;
+  background-color: rgba(200, 200, 200, 0.01);
+  position: relative;
+  margin-bottom: 0px;
+    
+}
+.button-box-active {
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+  margin-bottom: 0px;
+    margin-right: 4%;
+}
+.button-holder {
+    width: 85px;
+    height: 85px;
+    cursor: pointer;
+}
+#button {
+  height: 100px;
+  background-color: rgba(200, 200, 200, 0.01);
+  position: relative;
+  margin-bottom: 0px;
+    margin-left: 15px;
+    float: left;
+    cursor: pointer;
+}
+
+.bar {
+  position: absolute;
+  height: 5px;
+  width: 50px;
+  left: 10px;
+  background-color: rgb(235,0,139);
+  transform: rotate(0);
+  transition: .75s ease-in-out;
+  transform-origin: center right;
+}
+.open {
+    background-color: #fff!important;   
+}
+#bar-top {
+  transform: translate(0, 30px) rotate(0deg);
+  transform-origin: center 24px;
+}
+
+.open #bar-top {
+  width: 44px;
+  transform: translate(18px, 25px) rotate(225deg);
+}
+
+#bar-middle {
+  transform: translate(0, 48px) rotate(0deg);
+  transform-origin: center center;
+}
+
+.open #bar-middle {
+  width: 50px;
+  transform: translate(10px, 48px) rotate(180deg);
+}
+
+#bar-bottom {
+  transform: translate(0, 66px) rotate(0deg);
+  transform-origin: 24px -4px;
+}
+
+.open #bar-bottom {
+  width: 44px;
+  transform: translate(4px, 46px) rotate(135deg);
+}
+.row .home-title {
+    color: rgb(235,0,139);
+}
+.row .home-title h1 {
+    font-size: 115px;
+    font-family: camptonbold_demo;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-left: 7%;
+    margin-top: 160px;
+}
+#emptySpace {
+    float: left;
+}
+#boltLogo {
+    margin-top: 600px;
+    float: left;
+}
+
+/*******Creators********/
+#title {
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: rgb(235,0,139);
+   font-family: camptonbold_demo;
+    font-weight: 700;
+    letter-spacing: 6px;
+    font-size: 40px;
+}
+#logoPages {
+ margin-left: 3.5%;
+    margin-bottom: 20px;
+}
+
+
+.sub-title {
+    float: left;
+    
+}
+#subTitle {
+    text-transform: uppercase;
+    font-family: camptonbold_demo;
+    font-weight: 700;
+    letter-spacing: 4px!important;
+    font-size: 20px;
+    letter-spacing: 6px;
+    color: rgb(101,51,146);
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+#appButton  {
+     margin-top: 60px;
+}
+#lineIs {
+    height: 4px;
+    width: 50px;
+    background-color: rgb(101,51,146);
+    margin: 25px 0;
+}
+#lineIsFaq {
+    height: 4px;
+    width: 50px;
+    background-color: rgb(101,51,146);
+    margin: 15px 0;
+}
+.create-box {
+    height: 250px;
+    background: #452332;
+    opacity: 0;
+}
+.is-content {
+    font-family: museo-300;
+    font-size: 16px;   
+}
+#isBold {
+    font-size: 16px;
+    font-family: camptonbold_demo;
+    font-weight: 700;
+    color: rgb(101,51,146);
+    letter-spacing: 1px;
+}
+.FAQ-divide {
+    margin-top: 80px;   
+}
+.content-text {
+   font-family: museo-300;
+    font-size: 16px;
+}
+#subTitleFaq {
+    text-transform: uppercase;
+    font-family: camptonbold_demo;
+    font-weight: 700;
+    letter-spacing: 3px!important;
+    font-size: 22px;
+    letter-spacing: 6px;
+    color: rgb(101,51,146);
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+#plusSign {
+   font-family: 'Montserrat', sans-seriff; 
+}
+#subTitleGetBolt {
+    text-transform: uppercase;
+    font-family: camptonbold_demo;
+    font-weight: 700;
+    letter-spacing: 4px!important;
+    font-size: 20px;
+    letter-spacing: 6px;
+    color: rgb(101,51,146);
+    margin-top: 0px;
+    margin-bottom: 0;
+}
